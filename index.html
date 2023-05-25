@@ -1,0 +1,78 @@
+	<!doctype html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="style.css">
+			<script src="script.js"></script>
+			<title>Лабораторная 3 Компы</title>
+		</head>
+		<body>
+			<div class = "myhead"> 
+				<h1>Компьютер</h1>
+			</div>
+			<div class = "myhead"> 
+				<h2>Леха</h2>
+			</div>
+			<div id="otv_face"> 
+				Дуиай:
+				<img src="jokerge.png"
+				width="40%"
+				alt="Тут ответсвенное лицо :)">
+			</div>	
+			<div>
+			Операционные системы:
+			<table id="mytable">
+				<tr>
+					<th>Название</th>
+					<th>Лого</th>
+					<th>Год выпуска</th>
+					<th>Цена</th>
+				</tr>
+				<tr>
+					<td> Windows10</td>
+					<td> <img src="windows.png" width="100" height ="100" alt="Тут Виндовс"></td>
+					<td> 2012 </td>
+					<td> 50 </td>
+				</tr>
+				<tr>
+					<td> Linux</td>
+					<td> <img src="Linux.png" width="100" height ="100" alt="Тут Линукс"></td>
+					<td> 1998 </td>
+					<td> 0 </td>
+				</tr>
+				<tr>
+					<td> macOS</td>
+					<td> <img src="macOS.jpg" width="100" height ="100" alt="Тут макошь"></td>
+					<td> 2005 </td>
+					<td> 100 </td>
+				</tr>
+			</table>
+			</div>
+			<div>
+				Регистрация:
+				<br>
+				<label for "name">
+				Имя
+				</label>
+				<input id="in_name" type="text" name = "name" value=""><br>
+				<label for "age">
+				Возраст
+				</label>
+				<input id="in_age" type="number" name = "age" value=""><br>
+				<label for "name">
+				Пол
+				</label>
+				<input id="in_sex_m" type="radio" name = "sex" value="male" />
+				м
+				<input id="in_sex_f" type="radio" name = "sex" value="female" />
+				ж
+				<br>
+				<label for "name">
+				Важный
+				</label>
+				<input type="checkbox" name = "otv" value="Важный?" /><br>
+				<button type="button" onclick="myfunc()"> Зарегистрироваться</button><br>
+				<a href="#otv_face">Наверх</a><br>
+				<a href="https://www.chess.com/home">Ну давай</a>
+			</div>
+		</body>
+	</html>
